@@ -1,0 +1,19 @@
+{
+  "parent": "graphium:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "graphium:launch_pad"
+      }
+    },
+    "title": "Foot Race",
+    "description": "Craft any pad",
+    "frame": "task"
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

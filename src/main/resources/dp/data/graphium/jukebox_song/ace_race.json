@@ -1,0 +1,21 @@
+{
+  "comparator_output": 0,
+  "description": [
+    {
+      "text": "Ace Race",
+      "color": "aqua"
+    },
+    {
+      "text": " by ",
+      "color": "white"
+    },
+    {
+      "text": "Isaac Wilkins @ MCC",
+      "color": "red"
+    }
+  ],
+  "length_in_seconds": 310,
+  "sound_event": {
+    "sound_id": "graphium:music.ace_race"
+  }
+}

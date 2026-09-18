@@ -1,0 +1,19 @@
+{
+  "parent": "graphium:foot_race",
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "graphium:aqua_jet"
+      }
+    },
+    "title": "Aquatised",
+    "description": "Use an Aqua Jet",
+    "frame": "task"
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

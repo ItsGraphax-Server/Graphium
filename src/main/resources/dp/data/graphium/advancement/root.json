@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_brick"
+    },
+    "title": "Welcome to Graphium!",
+    "description": "This is my plugin, where I add all sorts of fun stuff for me to use!",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "minecraft:block/resin_block"
+  },
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:any_block_use"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "graphium:launch_pad",
+      "graphium:mega_launch_pad",
+      "graphium:jump_pad",
+      "graphium:speed_pad",
+      "graphium:slow_field",
+      "graphium:aqua_jet",
+      "graphium:soft_pad"
+    ]
+  }
+}

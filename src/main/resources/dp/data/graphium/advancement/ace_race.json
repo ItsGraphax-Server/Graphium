@@ -1,0 +1,19 @@
+{
+  "parent": "graphium:foot_race",
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "graphium:launch_pad"
+      }
+    },
+    "title": "Ace Race",
+    "description": "Use any type of pad",
+    "frame": "task"
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

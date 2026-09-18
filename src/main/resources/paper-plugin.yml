@@ -1,0 +1,10 @@
+name: Graphium
+version: '${version}'
+
+main: de.itsgraphax.graphium.Graphium
+bootstrapper: de.itsgraphax.graphium.GraphiumBootstrap
+api-version: '26.2'
+load: STARTUP
+
+authors: [ ItsGraphax ]
+website: https://itsgraphax.de

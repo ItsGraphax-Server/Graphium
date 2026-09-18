@@ -1,0 +1,19 @@
+{
+  "parent": "graphium:fashion_but_better",
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:item_model": "graphium:cylinder"
+      }
+    },
+    "title": "Mission failed successfully",
+    "description": "Get hit by the 0.407% chance of not getting the hat to drop",
+    "frame": "goal"
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
