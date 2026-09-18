@@ -2,6 +2,7 @@ package de.itsgraphax.graphium;
 
 import de.itsgraphax.graphium.citems.cosmetics.Cylinder;
 import de.itsgraphax.graphium.citems.cosmetics.CylinderListener;
+import de.itsgraphax.graphium.citems.cosmetics.GraphaxHorns;
 import de.itsgraphax.graphium.citems.discs.DiscAceRace;
 import de.itsgraphax.graphium.citems.pads.*;
 import de.itsgraphax.graphium.citems.recipes.RecipeManager;
@@ -45,6 +46,7 @@ public final class Graphium extends JavaPlugin {
         cim.register(new CitemAquaJet());
         cim.register(new DiscAceRace());
         cim.register(new Cylinder());
+        cim.register(new GraphaxHorns());
     }
 
     @Override

@@ -13,15 +13,15 @@ import org.bukkit.inventory.ItemStack;
 
 import static de.itsgraphax.graphium.Graphium.graphium;
 
-public class Cylinder extends Citem {
-    public Cylinder() {
+public class GraphaxHorns extends Citem {
+    public GraphaxHorns() {
         super(graphium.ns().citems.cylinder());
 
         ItemStack defaultItem = createItem();
         defaultItem.setData(DataComponentTypes.EQUIPPABLE, Equippable
                 .equippable(EquipmentSlot.HEAD)
                 .damageOnHurt(false)
-                .equipSound(Key.key("item.armor.equip_leather"))
+                .equipSound(Key.key("entity.evocation_illager.fangs"))
                 .build());
         defaultItem.setData(DataComponentTypes.ATTRIBUTE_MODIFIERS, ItemAttributeModifiers
                 .itemAttributes()

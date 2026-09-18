@@ -53,6 +53,10 @@ public class Namespaces {
         public NamespacedKey cylinder() {
             return key("cylinder");
         }
+
+        public NamespacedKey graphaxHorns() {
+            return key("graphax_horns");
+        }
     }
 
     public static final class PdcKeys extends NamespacesBase {
@@ -106,8 +110,8 @@ public class Namespaces {
             return key("feather_launch");
         }
 
-        public NamespacedKey cylinderWaypoint() {
-            return key("cylinder_waypoint");
+        public NamespacedKey hideHelmetWaypoint() {
+            return key("hide_helmet_waypoint");
         }
     }
 
