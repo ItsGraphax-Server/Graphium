@@ -105,6 +105,10 @@ public class Namespaces {
         public NamespacedKey featherLaunch() {
             return key("feather_launch");
         }
+
+        public NamespacedKey cylinderWaypoint() {
+            return key("cylinder_waypoint");
+        }
     }
 
     public static final class AdvancementKeys extends NamespacesBase {
