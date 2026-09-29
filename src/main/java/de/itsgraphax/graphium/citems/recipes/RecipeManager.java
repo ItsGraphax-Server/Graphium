@@ -26,5 +26,8 @@ public class RecipeManager {
                 graphium.ns().citems.softPad(), 2);
         // Aqua Jet
         AquaJetRecipe.register();
+
+        // Graphax' Horns
+        GraphaxHornsRecipe.register();
     }
 }
