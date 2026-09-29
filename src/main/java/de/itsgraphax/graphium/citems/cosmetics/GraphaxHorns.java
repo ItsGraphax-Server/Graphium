@@ -15,7 +15,7 @@ import static de.itsgraphax.graphium.Graphium.graphium;
 
 public class GraphaxHorns extends Citem {
     public GraphaxHorns() {
-        super(graphium.ns().citems.cylinder());
+        super(graphium.ns().citems.graphaxHorns());
 
         ItemStack defaultItem = createItem();
         defaultItem.setData(DataComponentTypes.EQUIPPABLE, Equippable
