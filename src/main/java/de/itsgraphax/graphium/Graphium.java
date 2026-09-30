@@ -64,7 +64,7 @@ public final class Graphium extends JavaPlugin {
                 new CitemListener(cim),
                 new CylinderListener(),
                 advancementListener,
-                new ResourcepackSender("graphium", "1.0.0");
+                new ResourcepackSender("graphium", "1.0.0"));
 
         getServer().getScheduler().runTaskTimer(this, padManager::tickPlayers, 1, 1);
         getServer().getScheduler().runTaskTimer(this, padManager::tickPads, 1, 20);
