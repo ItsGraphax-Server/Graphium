@@ -18,10 +18,6 @@ import de.itsgraphax.grphxLib.utils.ResourcepackSender;
 import de.itsgraphax.grphxLib.utils.RichText;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.UUID;
-
-// FAIL COUNTER: 6
-
 public final class Graphium extends JavaPlugin {
     public static Graphium graphium;
 

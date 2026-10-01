@@ -12,7 +12,7 @@ public class MegaLaunchPad extends LaunchPad {
 
     @Override
     protected Vector setVelocity(double x, double z) {
-        return new Vector(x * 3.5, 1.3, z * 3.5);
+        return new Vector(x * 3.5, 1.5, z * 3.5);
     }
 
     @Override

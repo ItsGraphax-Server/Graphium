@@ -7,6 +7,8 @@ import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.Vector;
 
 public class JumpPad extends PadHandler {
+    protected static final PotionEffect jumpBoost = new PotionEffect(PotionEffectType.JUMP_BOOST, 5, 7);
+
     public JumpPad(ItemDisplay entity) {
         super(entity);
     }
@@ -18,11 +20,13 @@ public class JumpPad extends PadHandler {
 
     @Override
     public void onTick(Player p) {
-        p.addPotionEffect(new PotionEffect(PotionEffectType.JUMP_BOOST, 5, 7));
+        p.addPotionEffect(jumpBoost);
     }
 
     @Override
     public void onJump(Player p) {
+        p.addPotionEffect(jumpBoost);
+
         startFeatherLaunch(p);
 
         awardAceRaceAdvancement(p);
